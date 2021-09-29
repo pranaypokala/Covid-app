@@ -18,7 +18,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_model('C:/Users/admin/OneDrive/Desktop/covid 19 detector/Covid-19-app/Covid-app/my_model.hdf5')
+model = tf.keras.models.load_model('C:/Users/admin/OneDrive/Desktop/covid 19 detector/Covid-19-app/my_model.hdf5')
 
 st.write("""
          # Covid_19 Detector
